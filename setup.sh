@@ -30,6 +30,12 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 # https://toolbelt.heroku.com/debian
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+# Install Grunt
+npm install -g grunt-cli
+
+# Install Bower
+npm install -g bower
+
 # Install Yeoman
 # See: http://yeoman.io/
 npm install -g yo
