@@ -30,6 +30,11 @@ sudo apt-get install -y emacs24 emacs24-el emacs24-common-non-dfsg
 # https://toolbelt.heroku.com/debian
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+# Install Yeoman
+# See: http://yeoman.io/
+npm install -g yo
+
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
