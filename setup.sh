@@ -34,11 +34,11 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 npm install -g grunt-cli
 
 # Install Bower
-npm install -g bower
+sudo npm install -g bower
 
 # Install Yeoman
 # See: http://yeoman.io/
-npm install -g yo
+sudo npm install -g yo
 
 
 # git pull and install dotfiles as well
